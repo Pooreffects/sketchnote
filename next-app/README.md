@@ -38,3 +38,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+run build command does the following:
+
+- Build and Export Next.js App
+- Move and Rename Directories
+- Update Paths in HTML Files
+- Move Files to the Extension Directory
+- Clean Up and Sync Assets
+
+## <!-- yet it's not generating the folder structure below, thus, the extension is not loading/running at all on the browser.
+
+---
+
+extension/
+├── index.html
+├── next/
+│ └── ... (next assets)
+├── public/
+│ └── ... (public assets)
+└── manifest.json
+
+---
